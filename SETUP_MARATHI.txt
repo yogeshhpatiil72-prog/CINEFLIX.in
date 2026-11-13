@@ -1,0 +1,24 @@
+PATIL NEO — सोपी Setup Guide
+
+1) GitHub repository मध्ये ZIP मधील सगळ्या files extract करून upload/replace करा.
+   index.html, style.css, script.js, admin.html, movies.json आणि firestore.rules (README सोबत) root मध्ये असाव्यात.
+2) Firebase Console उघडा: https://console.firebase.google.com/
+3) Project: patill-neo निवडा.
+4) Authentication → Sign-in method → Email/Password ON असावे.
+5) Authentication → Users मध्ये admin account असावा. त्याचा UID या package मधील admin UID शी जुळला पाहिजे.
+6) Firestore Database → Rules उघडा. firestore.rules मधील पूर्ण मजकूर paste करून Publish करा.
+7) GitHub Pages update होण्यासाठी 1–5 मिनिटे थांबा.
+8) Website: https://yogeshhpatiil72-prog.github.io/Patilneo.in/
+9) Admin: https://yogeshhpatiil72-prog.github.io/Patilneo.in/admin.html
+10) Admin मध्ये Firebase admin email/password ने login करा. Movie title, poster URL, video URL, genre इ. भरा आणि Save Movie करा.
+11) Movie website वर सर्व visitors ना दिसेल. Delete केल्यास सर्वांसाठी delete होईल.
+
+जर login error आला:
+- Email/Password provider ON आहे का तपासा.
+- Firebase Authentication user UID admin UID शी जुळतो का तपासा.
+- Firestore rules Publish झाले आहेत का तपासा.
+
+Admin UID:
+mc7ClIcpnDXFfhMFYVnDsIw1Qo13
+
+टीप: Premium payment/referral अजून या package मध्ये नाहीत. आधी catalogue + admin panel नीट चालू करू. नंतर payment/referral सुरक्षित पद्धतीने जोडू.
